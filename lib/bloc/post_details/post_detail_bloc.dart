@@ -11,6 +11,7 @@ class PostDetailBloc extends Bloc<PostDetailEvent, PostDetailState> {
   }
 
   Future<void> _onLoadDetail(
+
       LoadPostDetailEvent event, Emitter<PostDetailState> emit) async {
     emit(PostDetailLoading());
     try {

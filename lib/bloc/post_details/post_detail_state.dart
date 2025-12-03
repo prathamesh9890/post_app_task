@@ -19,6 +19,7 @@ class PostDetailLoaded extends PostDetailState {
   List<Object?> get props => [post];
 }
 
+
 class PostDetailError extends PostDetailState {
   final String message;
 
