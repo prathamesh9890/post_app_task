@@ -22,6 +22,7 @@ class PostModel {
     return options[_random.nextInt(options.length)];
   }
 
+
   factory PostModel.fromJson(Map<String, dynamic> json) {
     final timerFromJson = json['timerDuration'];
     return PostModel(

@@ -11,6 +11,7 @@ class PostListItem extends StatelessWidget {
   final VoidCallback onTap;
 
   const PostListItem({
+
     super.key,
     required this.post,
     required this.isRead,

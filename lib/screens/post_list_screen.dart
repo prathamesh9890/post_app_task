@@ -90,6 +90,7 @@ class PostListScreen extends StatelessWidget {
           } else {
             return const SizedBox.shrink();
           }
+
         },
       ),
     );

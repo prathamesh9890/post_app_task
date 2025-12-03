@@ -11,6 +11,7 @@ class PostRemoteDataSource {
     return jsonList.map((e) => PostModel.fromJson(e)).toList();
   }
 
+
   Future<PostModel> fetchPostDetail(int postId) async {
     final res = await ApiService.getRequest("/posts/$postId");
 

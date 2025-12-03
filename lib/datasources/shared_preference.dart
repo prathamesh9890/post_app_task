@@ -7,7 +7,6 @@ class PostLocalDataSource {
   static const String _readPostsKey = 'read_post_ids';
 
   final SharedPreferences prefs;
-
   PostLocalDataSource({required this.prefs});
 
   Future<void> cachePosts(List<PostModel> posts) async {

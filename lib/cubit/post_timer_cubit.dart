@@ -30,7 +30,6 @@ class PostTimerState extends Equatable {
   @override
   List<Object?> get props => [remainingSeconds, isRunning];
 }
-
 class PostTimerCubit extends Cubit<PostTimerState> {
   Timer? _ticker;
 

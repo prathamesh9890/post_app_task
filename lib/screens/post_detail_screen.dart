@@ -24,8 +24,10 @@ class PostDetailScreen extends StatelessWidget {
       PostDetailBloc(repository: repository)..add(LoadPostDetailEvent(postId)),
       child: Scaffold(
         appBar: const CustomAppBar(
+
           title: "Post Details",
           showBackButton: true,
+
         ),
         backgroundColor: kwhite,
         body: BlocBuilder<PostDetailBloc, PostDetailState>(
