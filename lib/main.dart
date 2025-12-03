@@ -9,9 +9,9 @@ import 'cubit/post_timer_cubit.dart';
 import 'datasources/shared_preference.dart';
 import 'datasources/post_remote_data_source.dart';
 
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
 
   final prefs = await SharedPreferences.getInstance();
   final remoteDataSource = PostRemoteDataSource();
@@ -56,4 +56,5 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
+
 }
